@@ -107,7 +107,7 @@
     "sqlstring-sqlite": "^0.1.1",
     "ts-mongoose": "0.0.21",
     "tsc": "^1.20150623.0",
-    "underscore": "^1.10.2",
+    "underscore": "^1.12.1",
     "universal-analytics": "^0.4.20",
     "vue-property-decorator": "^8.4.1",
     "vue-router": "^3.1.3",
