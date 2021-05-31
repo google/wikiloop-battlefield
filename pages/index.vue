@@ -79,13 +79,14 @@
 
         },
         async beforeMount() {
-          let dice = Math.random() * 100;
-          let threshold = parseInt(this.$env.MIXER_RAMP_UP_PERCENT) || 0;
-          if (['enwiki','testwiki'].indexOf(this.$store.state.wiki) >=0 && dice < threshold) {
-            this.$router.push('/feed/mix');
-            console.log(`Redirect to /feed/mix`);
-            return;
-          }
+          // TODO(xinbenlv): temp removed to avoid switching to unstable Feed.
+          // let dice = Math.random() * 100;
+          // let threshold = parseInt(this.$env.MIXER_RAMP_UP_PERCENT) || 0;
+          // if (['enwiki','testwiki'].indexOf(this.$store.state.wiki) >=0 && dice < threshold) {
+          //   this.$router.push('/feed/mix');
+          //   console.log(`Redirect to /feed/mix`);
+          //   return;
+          // }
         },
         async mounted() {
             await this.$store.dispatch(`revisions/loadMoreWikiRevs`);
