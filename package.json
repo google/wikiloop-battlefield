@@ -1,6 +1,6 @@
 {
   "name": "wikiloop-doublecheck",
-  "version": "4.1.1",
+  "version": "4.1.2",
   "description": "A web app for Wikipedians to fight vandalism together.",
   "author": "Zainan Victor Zhou <zzn@google.com>",
   "repository": "git@github.com:google/wikiloop-doublecheck.git",
